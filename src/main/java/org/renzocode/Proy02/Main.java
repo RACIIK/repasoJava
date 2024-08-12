@@ -2,8 +2,6 @@ package org.renzocode.Proy02;
 
 import org.renzocode.Proy02.CriaturasMarinas.Delfin;
 import org.renzocode.Proy02.CriaturasMarinas.Pulpo;
-import org.renzocode.Proy02.Interfaces.IAlimentable;
-import org.renzocode.Proy02.Interfaces.IComunicable;
 
 
 public class Main {

@@ -1,6 +1,5 @@
 package org.renzocode.Abstracta;
 
-import org.w3c.dom.css.Rect;
 
 public class Main {
     public static void main(String[] args) {
