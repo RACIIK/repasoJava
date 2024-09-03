@@ -7,3 +7,6 @@ En este repositorio existe ejemplo de algunas funciones básicas de JAVA SE, uti
 ## Clases abstractas
 ## Interfaces
 ## POO
+## SOLID
+## ENUM CLASS
+
