@@ -1,31 +1,31 @@
 package org.renzocode.SOLID.OpenClose.Calculadora;
 
-public interface ICalculadora {
+public interface IOperaciones {
     double calcular (double a, double b);
 }
 
-     class Suma implements ICalculadora {
+     class Suma implements IOperaciones {
 
         @Override
         public double calcular(double a, double b) {
             return a + b;
         }
     }
-    class Resta implements ICalculadora {
+    class Resta implements IOperaciones {
 
         @Override
         public double calcular(double a, double b) {
             return a - b;
         }
     }
-    class Multiplicar implements ICalculadora {
+    class Multiplicar implements IOperaciones {
 
         @Override
         public double calcular(double a, double b) {
             return a * b;
         }
     }
-    class Dividir implements ICalculadora {
+    class Dividir implements IOperaciones {
 
         public double calcular(double a, double b) {
             if (b!=0){
